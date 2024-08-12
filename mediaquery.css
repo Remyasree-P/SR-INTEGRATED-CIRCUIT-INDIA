@@ -1,0 +1,43 @@
+@media screen and (max-width:1200px) {
+    .desktop-nav{
+        display: none;
+    }
+    .humbarger-nav{
+        display: flex;
+    }
+   
+}
+@media screen and (max-width:900px){
+    .carousel-item{
+        flex-direction: column;
+        height:100%;
+        padding: 10px;
+    }
+    .carousel-image{
+        width: 50%;
+        height:100%;
+    }
+    .second{
+        flex-direction: column;
+        align-items: center;
+    }
+    #i1{
+        width: 100%;
+        padding: 10px;
+    }
+    #i2{
+        visibility: hidden;
+    }
+    .third{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .fourth1{
+        flex-direction: column;
+    }
+    .fourth{
+        height:fit-content ;
+        padding: 50px;
+    }
+}
