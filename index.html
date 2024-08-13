@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="main desktop-nav">
-        <div class="logo">BRANDMARK</div>
+        <div class="logo">WEATHER</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#tools">Tools</a></li>
@@ -20,7 +20,7 @@
         </div>
     </nav>
     <nav class="main humbarger-nav">
-        <div class="logo">BRANDMARK</div>
+        <div class="logo">WEATHER</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -40,6 +40,22 @@
         <h1>Create a unique, professional <br>logo for your business</h1>
         <p>Kickstart your brand with business card designs, social media graphics,<br> app icons, letter heads and more</p>
         <button>Create My Logo</button>
+        <div class="first1">
+            <div class="left">
+                <div class="input">
+                    <input id="cityName" type="text" placeholder="search for weather by city,zip code or coordinates">
+                </div>
+                <div class="search">
+                    <button onclick="fetchDetails()">search</button>
+                </div>  
+            </div>
+            <div class="right">
+                <h1 id="cityDetails">City Name,Country</h1>
+                <h1 id="date">📅date</h1>
+                <h1 id="temperature">🌡️75 <sup>o</sup></h1>
+            </div>
+        </div>
+
     </div>
     <div class="carousel">
         <div class="carousel-item">
@@ -153,13 +169,87 @@
                 <img id="brown" src="./images/brown.png" alt="">
                 <img id="blue" src="./images/blue.png" alt="">
             </div>
-            <!-- <div class="subsec2">
+            <div class="subsec2">
                 <img id="invitation" src="./images/invitation.jpg" alt="">
                 <img id="darkbrown" src="./images/darkbrown.jpeg" alt="">
-            </div> -->
+                <img id="darkbrown2" src="./images/darkbrown2.jpg" alt="">
+                <img id="lightorange" src="./images/lightorange.png" alt="">
+            </div>
         </div>
     </div>
-    
+    <div class="six">
+        <div class="subsix1">
+            <!-- <div></div> -->
+            <img src="./images/six1.png" alt="">
+        </div>
+        <div class="subsix2">
+            <img src="./images/six1.png" alt="">
+            <div class="six1">
+                <h3>No more designer anxiety</h3>
+                <p> Get your logo instantly, not in weeks.</p>
+            </div>
+            
+        </div>
+        <div class="subsix3">
+            <div class="six2">
+                <h3>Need a tweak to your design?</h3>
+                <p> We’ll do it for you, absolutely free.</p>
+            </div>
+            <img src="./images/six1.png" alt="">
+        </div>
+        <div class="subsix4">
+            <img src="./images/six1.png" alt="">
+            <div class="six1">
+                <h3>No monthly charges</h3>
+                <p> Pay once, get access to our branding tools forever.</p>
+            </div>
+        </div>
+        <div class="subsix3">
+            <div class="six2">
+                <h3>Full copyright included</h3>
+                <p> For use in commercial and personal projects.</p>
+            </div>
+            <img src="./images/six1.png" alt="">
+        </div>
+        <div class="subsix4">
+            <img src="./images/six1.png" alt="">
+            <div class="six1">
+                <h3>Unlimited revisions</h3>
+                <p> Modify your logo at any time, even after purchase.</p>
+            </div>
+        </div>
+    </div>
+    <div class="seven">
+        <h2>Create your unique logo design</h2>
+        <p>generate unlimited logos for free</p>
+        <button>Create My Logo</button>
+    </div>
+    <div class="top-bar">
+        <div class="top-item">
+            <h2>Design Your Logo</h2>
+            <p>Start with Brandmark for free, no sign-up required</p>
+        </div>
+        <div class="top-item">
+            <h2>Help Center</h2>
+            <p>Need assistance? Get started here.</p>
+        </div>
+        <div class="top-item">
+            <h2>Resources</h2>
+            <p>Explore our free resources for color, font, and logo creation</p>
+        </div>
+    </div>
+
+    <div class="content-area">
+        <p class="left-side">User Agreement</p>
+        <p class="right-side">Privacy Terms</p>
+
+        <div class="color-blocks">
+            <div class="block red-block"></div>
+            <div class="block gold-block"></div>
+            <div class="block green-block"></div>
+            <div class="block skyblue-block"></div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

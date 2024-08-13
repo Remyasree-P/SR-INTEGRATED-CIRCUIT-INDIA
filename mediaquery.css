@@ -8,6 +8,11 @@
    
 }
 @media screen and (max-width:900px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+      }
     .carousel-item{
         flex-direction: column;
         height:100%;
@@ -39,5 +44,41 @@
     .fourth{
         height:fit-content ;
         padding: 50px;
+    }
+    .subsec{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        padding: 10px;
+    }
+    #pink,#green,#gray,#orange,#lightorange,#darkbrown2,#darkbrown,#invitation{
+        visibility: hidden;
+        display: none;
+    }
+    .sb1{
+        text-align: center;
+        height: fit-content;
+        padding-bottom: 200px;
+        padding-left: 30px;
+    }
+    .six{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        padding-left:100px ;
+    }
+    .subsix1{
+        display: none;
+    }
+    .seven{
+        flex-direction: column;
+    }
+    .color-blocks{
+        flex-direction: column;
+    }
+    .first1{
+        flex-direction: column;
     }
 }

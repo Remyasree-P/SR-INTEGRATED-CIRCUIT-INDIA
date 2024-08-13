@@ -6,6 +6,9 @@
 body{
     padding: 10px;
     /* margin: 0px ; */
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
 }
 .main{
     padding: 20px 20px;
@@ -315,7 +318,7 @@ a:hover{
     text-align: center;
 }
 .subfour img{
-    transform: translateY(50px);
+    transform: translateY(70px);
     padding: 40px 0px;
 }
 .subfive{
@@ -337,6 +340,10 @@ a:hover{
 }
 .five{
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+   text-align: justify;
+   background-color: gainsboro;
 }
 #whiteimg{
     height: 240px;
@@ -353,7 +360,7 @@ a:hover{
     width: 120px;
 }
 .sub2{
-    padding: 210px;
+    padding: 150px;
     padding-left:140px ;  
 }
 .subsec{
@@ -364,4 +371,191 @@ a:hover{
 .subsec img{
     height: 120px;
 }
+#brown{
+    height: 250px;
+    transform: translateY(62px);
+}
+.subsec2{
+    display: flex;
+}
+#invitation{
+    height: 375px;
+    width: 7770px;
+    transform: translate(160px,-65px);
+}
+#darkbrown{
+    height:250px;
+    width: 740px;
+    transform: translate(160px,60px);
+}
+#lightorange{
+    height: 120px;
+    width: 200px;
+    transform: translateY(100px);
+}
+#darkbrown2{
+    height: 200px;
+    width: 200px;
+    transform: translate(200px,-64px);
+}
+.subsix2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 500px;
+}
+.subsix1{
+    padding-left: 670px;
+}
+.six img{
+    height: 160px;
+    width: 160px;
+}
+.subsix3{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 600px;
+    gap: 30px;
+    text-align: justify;
+    transform: translateX(-70px);
+}
+.subsix4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 500px;
+    gap: 30px;
+}
+.six{
+    background-color: gainsboro;
+    transform: translateY(-220px);
+}
+.seven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    height: 40vh;
+    transform: translateY(-220px);
+}
+.seven button{
+    padding: 9px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(157, 191, 205);
+    font-weight: bold;
+    color: white;
+}
+.seven button:hover{
+    background-color: skyblue;
+    
+}
+.top-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #2d2d2d;
+    transform: translateY(-220px);
+}
 
+.top-item h2 {
+    color: #f39c12; /* Gold */
+    margin: 0;
+}
+
+.top-item p {
+    margin: 5px 0;
+}
+
+.top-item:nth-child(2) h2 {
+    color: #e74c3c; /* Red */
+}
+
+.top-item:nth-child(3) h2 {
+    color: #1abc9c; /* Green */
+}
+
+.content-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.left-side {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.right-side {
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.color-blocks {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: -50px;
+}
+
+.block {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.red-block {
+    background-color: #e74c3c;
+}
+
+.gold-block {
+    background-color: #f39c12;
+}
+
+.green-block {
+    background-color: #27ae60;
+}
+
+.skyblue-block {
+    background-color: #3498db;
+}
+
+/* weather */
+.first1{
+    /* margin: 0px 90px; */
+    background: url("weather.avif");
+     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100vh; */
+    /* padding: 0px 130px; */
+}.left{
+    display: flex;
+}
+.left input{
+    width: 280px;
+    padding: 10px;
+}
+.left button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+#cityDetails{
+    color: white;
+
+}
+#date{
+    color: white;
+}
+#temperature{
+    color: white;
+    padding: 10px 0px;
+    font-size: 60px;
+}
